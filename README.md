@@ -8,6 +8,9 @@
 - [Conclusion](#conclusion)
 ## Project Overview
 This project focuses on cleaning and preparing the "Food Coded" dataset to enable robust analysis of food habits and their correlation with various lifestyle factors. The raw data has undergone rigorous cleaning, including handling missing values, standardizing formats, and removing inconsistencies. Furthermore, the columns have been thoughtfully renamed and logically rearranged to enhance usability and interpretability, making it easier to explore relationships between food choices, lifestyle factors, and various demographic characteristics. This dataset is now optimized for insightful analysis into dietary patterns and their correlations.
+
+![After cleaning the dataset](https://github.com/user-attachments/assets/e425cd76-966b-4ec4-a97c-9967608ae452)
+
 ## Project Goal
 The primary objective of this data cleaning initiative was to enhance the accuracy of analysis and improve the readability of the dataset for a diverse audience by transforming the messy raw dataset into a clean, well-structured dataset suitable for statistical analysis. This dataset specifically explores the eating habits and lifestyle of college students.
 ## Data Source
@@ -46,7 +49,7 @@ The entire raw dataset was copied to a new worksheet to ensure the preservation 
     -Additionally, almost all the column headers were further renamed to be more intuitive and understandable for a broader audience.
 
 #### Handling Missing Numerical Data
--GPA: Missing or zero values in the `GPA` column were imputed with the average GPA of the column. The `GPA` values were then consistently rounded to two decimal places.
+-GPA: Missing or zero values in the `GPA` column were imputed with the average GPA of the column. The `GPA` values were then consistently rounded to one decimal place.
 -Student Weight: Blank cells in the student `weight` column were filled with the average weight of the column.
 -Other Numerical Columns: Any other numerical columns containing blank cells were similarly filled using the average of their respective columns.
 
